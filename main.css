@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    background-color: #EFD592;
+    width: 100vw;
+    height: 100vh;
+    padding: 60px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.square {
+    background: #242D38;
+    width: 50%;
+    height: 100%;
+}
+
+.content {
+    margin: 25px 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    color: #242D38;
+}
+
+.content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.content p {
+    line-height: 2;
+    font-size: 1.5rem;
+    margin: 30px 0;
+}
+
+.content h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.hamburger {
+    width: 100px;
+    height: 100px;
+    background: #242D38;
+    border: 1px solid #EFD592;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hambi1 {
+    width: 55%;
+    height: 6%;
+    background: #EFD592;
+}
+
+.hambi2 {
+    width: 55%;
+    height: 6%;
+    background: #EFD592;
+    margin: 10px;
+}
+
+.hambi3 {
+    width: 55%;
+    height: 6%;
+    background: #EFD592;
+}
+
+@media screen and (max-width: 720px) {
+    body {
+      background-color: #EFD592;
+    }
+
+    .square {
+        width: 100%;
+        height: 50%;
+        background: #242D38;
+    }
+
+    .content {
+        margin: 25px 20px;
+    }
+
+    .content h2 {
+        margin:  30px 0;
+        font-size: 2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .content p {
+        text-align: left;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .content h3 {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .hamburger {
+        width: 60px;
+        height: 60px;
+        background: #242D38;
+        border: 1px solid #EFD592;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hambi1 {
+        width: 55%;
+        height: 6%;
+        background: #EFD592;
+    }
+
+    .hambi2 {
+        width: 55%;
+        height: 6%;
+        background: #EFD592;
+        margin: 5px;
+    }
+
+    .hambi3 {
+        width: 55%;
+        height: 6%;
+        background: #EFD592;
+    }
+    
+    
+  }
+
+
